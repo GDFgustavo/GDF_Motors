@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDF Motors</title>
+    <!--BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top shadow">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-4 fw-bold text-colored-2">GDF Motors</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegação">
+                <span class="navbar-toggler-icon navbar-warning"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-center" id="menu-navegação">
+                <ul class="nav fw-bold d-block d-md-flex">
+                    <li class="nav-item mx-2">
+                        <a href="#" class="nav-link text-colored-2">Login</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="#categorias" class="nav-link text-colored-2">Categorias</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="#" class="nav-link text-colored-2">Financiamento</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="#contato" class="nav-link text-colored-2">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+            <div class="carousel slide carousel-mobile" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-inteval="3000">
+                        <img class="w-100" src="./Imagens/Slide/Slide-1-mobile.jpg" alt="Slide da loja">
+                    </div>
+                    <div class="carousel-item" data-bs-inteval="3000">
+                        <img class="w-100" src="./Imagens/Slide/Slide-2-mobile.jpg" alt="Slide da loja">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel slide" id="carousel" data-bs-ride="carousel">
+                <div class="carousel-inner"> 
+                    <div class="carousel-item active" data-bs-inteval="2000">
+                        <img class="w-100" src="./Imagens/Slide/Slide 1.jpg" alt="Slide da loja">
+                    </div>
+                    <div class="carousel-item" data-bs-inteval="2000">
+                        <img class="w-100" src="./Imagens/Slide/Slide 2.jpg" alt="Slide da loja">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="bi bi-arrow-left-square-fill text-colored-2 fs-3"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="bi bi-arrow-right-square-fill text-colored-2 fs-3"></span>
+                </button>
+            </div>
+        </section>
+    <section class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#">
+                        <div class="shadow rounded-4 text-center mt-3 mb-4" id="servicos">
+                            <h4 class="fs-5 p-4 text-colored-3">Comprar veículo</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">
+                        <div class="shadow rounded-4 text-center mt-3 mb-4" id="servicos">
+                            <h4 class="fs-5 p-4 text-colored-3">Vender veículo</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">
+                        <div class="shadow rounded-4 text-center mt-3 mb-4" id="servicos">
+                            <h4 class="fs-5 p-4 text-colored-3">Financiamento</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <h2 class="mt-4 mb-1 text-center text-colored">Categorias</h2>
+            </div>
+            <div class="row mt-5 mb-1 flex-nowrap" id="categorias">
+                <div class="col-10 col-md-4 col-lg-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Categorias/Sedans/Img-Virtus.jpg" alt="">
+                            <div class="card-body rounded-bottom">
+                                <h3 class="fs-5 text-colored-2 text-center">Sedans</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-10 col-md-4 col-lg-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Categorias/Hatch/Img-Hb20.jpg" alt="">
+                            <div class="card-body rounded-bottom">
+                                <h3 class="fs-5 text-colored-2 text-center">Hatch</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-10 col-md-4 col-lg-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Categorias/Elétricos/Img-BYDSeal.jpg" alt="">
+                            <div class="card-body rounded-bottom">
+                                <h3 class="fs-5 text-colored-2 text-center">Elétricos</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-10 col-md-4 col-lg-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Categorias/SUVs/Img-LandRoverDiscovery.jpg" alt="">
+                            <div class="card-body rounded-bottom">
+                                <h3 class="fs-5 text-colored-2 text-center">SUVs</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-10 col-md-4 col-lg-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Categorias/Picapes/Img-ToyotaHilux.jpg" alt="">
+                            <div class="card-body rounded-bottom">
+                                <h3 class="fs-5 text-colored-2 text-center">Picapes</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-10 col-md-4 col-lg-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Categorias//Híbridos/Img-HondaCivic.jpg" alt="">
+                            <div class="card-body rounded-bottom">
+                                <h3 class="fs-5 text-colored-2 text-center">Hibridos</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="control-categorias">
+                <div class="position-absolute fs-3 text-colored">
+                        <i id="slideLeft" class="bi bi-arrow-left-square"></i>
+                </div>
+                <div class="d-flex flex-row-reverse fs-3 text-colored">
+                        <i id="slideRight" class="bi bi-arrow-right-square"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="search">
+        <div class="container">
+            <div class="row">
+                <h2 class="fs-4 mt-4 mb-3 text-center text-colored">Busque por um veículo</h2>
+            </div>
+            <form class="d-flex justify-content-center mb-5">
+                <div class="input-group rounded-start shadow">
+                    <input type="text" class="form-control border-0" placeholder="Marca ou Modelo" id="busca">
+                    <button class="rounded-end text-colored-2" type="submit" id="icone-lupa">
+                        <span class="bi bi-search p-1"></span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="anuncios">
+        <div class="container">
+            <div class="row">
+                <h2 class="d-flex justify-content-center text-colored-3 mt-3">Anúncios
+                    <i id="Buttonright-mobile" class="bi bi-arrow-right-square fs-5 p-1 ms-1"></i>
+                </h2>
+            </div>
+            <div class="row flex-nowrap mt-3 mb-1" id="carousel-anuncios"> 
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Chevrolet/Img-ChevroletCruzeSport6.jpg" alt="Chevrolet Cruze">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Chevrolet Cruze
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$87,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Chevrolet/Img-ChevroletS10.jpg" alt="Chevrolet S10">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Chevrolet S10
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$113,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Chevrolet/Img-Cruze.jpg" alt="Chevrolet Cruze Sedan">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Chevrolet Cruze S
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$75,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Chevrolet/Img-ChevroletEquinox.jpg" alt="Chevrolet Equinox">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Chevrolet Equinox
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$116,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Chevrolet/Img-Onix.jpg" alt="Chevrolet Onix">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Chevrolet Onix
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$74,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Fiat/Img-Argo.jpg" alt="Fiat Argo">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Fiat Argo
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$88,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Fiat/Img-Fiat Strada.jpg" alt="Fiat Strada">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Fiat Strada
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$78,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Volkswagem/Img-Gol.jpg" alt="Volkswagem Gol">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Volkswagem Gol
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$79,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Volkswagem/Img-Jetta.jpg" alt="Volkswagem Jetta">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Volkswagem Jetta
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$137,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Volkswagem/Img-Virtus.jpg" alt="Volkswagem Virtus">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Volkswagem Virtus
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$126,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Volkswagem/Img-VolkswagenAmarok.jpg" alt="Volkswagem Amarok">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Volkswagem Amarok
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$110,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas//Volkswagem/Img-VolkswagenTiguan.jpg" alt="Volkswagem Tiguan">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Volkswagem Tiguan
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$113,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Hyundai/Img-Hb20.jpg" alt="Hyundai HB-20">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Hyundai HB-20
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$95,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Hyundai/Img-HyundaiTucson.jpg" alt="Hyundai Tucson">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Hyundai Tucson
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$117,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Hyundai/Img-HyundaiIoniq.jpg" alt="Hyundai Ioniq">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Hyundai Ioniq
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$93,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Toyota/Img-Corolla.jpg" alt="Toyota Corolla">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Toyota Corolla
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$105,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Toyota/Img-ToyotaHilux.jpg" alt="Toyota Hilux">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Toyota Hilux
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$102,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Híbridos/Img-ToyotaCorollaCross.jpg" alt="Toyota Corolla Cross">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Toyota Corolla Cross
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$110,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Audi/Img-AudiA3.jpg" alt="Audi A3">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Audi A3
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$120,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Audi/Img-AudiQ5.jpg" alt="Audi Q5">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Audi Q5
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$148,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Audi/Img-AudiEtron.jpg" alt="Audi E-tron">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Audi E-tron
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$327,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Jace/Img-JACE-JS1.jpg" alt="JACE-JS1">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">JACE-JS1
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$67,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Jace/Img-JACE-J7.jpg" alt="JACE-J7">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">JACE-J7
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$78,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/KIA/Img-KiaSportage.jpg" alt="Kia Sportage">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Kia Sportage
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$110,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/KIA/Img-KiaEV6.jpg" alt="Kia EV6">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Kia EV6
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$110,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Elétricos/Img-BYD YuanPlusEV.jpg" alt="BYD Plus Ev">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">BYD Plus Ev
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$180,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <a href="#">
+                        <div class="card border-0">
+                            <img class="d-block w-100 rounded-top" src="./Imagens/Marcas/Elétricos/Img-BYDSeal.jpg" alt="Byd Seal">
+                            <div class="card-body rounded-bottom">
+                                <h5 class="card-title position-relative text-colored-3">Byd Seal
+                                    <i id="card-marcador" class="bi bi-bookmark text-colored-2 position-absolute top-0 end-0 fs-5"></i>
+                                </h5>
+                                <div class="card-text border-bottom text-colored-3">
+                                    <p>
+                                        Motor Forte
+                                    </p>
+                                    <strong class="price fs-3 text-colored-2">R$210,000</strong>
+                                    <span class="d-flex mt-1">
+                                        <i class="bi bi-calendar2"></i>
+                                        <h5 class="ms-1 fs-5 fw-normal">2022/2022</h5>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button id="card-button" class=" text-colored border-0 fw-bold rounded" type="submit">
+                                        Ver mais detalhes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="control-anuncios">
+                <div class="position-absolute fs-3 text-colored-3">
+                    <i id="buttonprev" class="bi bi-arrow-left-square"></i>
+                </div>
+                <div class=" d-flex flex-row-reverse fs-3 text-colored-3">
+                    <i id="buttonnext" class="bi bi-arrow-right-square"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contato">
+        <h2 class="fs-4 mt-5 mb-4 text-colored-3 text-center">Fale conosco</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="fs-4 text-colored-2">Redes Socias</h2>
+                    <ul class="list-unstyled">
+                        <li class="fs-5">
+                            <a href="https://www.instagram.com/">
+                                <i class="bi bi-instagram text-colored-3"></i>
+                            </a>
+                            <a href="https://twitter.com/">
+                                <i class="bi bi-twitter-x text-colored-3 ms-2"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="fs-4 text-colored-2">Suporte</h2>
+                    <ul class="footer-list ps-0">
+                        <li>
+                            <a class="text-colored-3" href="#">Perguntas</a>
+                        </li>
+                        <li>
+                            <a class="text-colored-3" href="#">Duvidas Frequentes</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="fs-4 text-colored-2">Entre em contato</h2>
+                    <ul class="footer-list ps-0">
+                        <li>
+                            <a class="text-colored-3" href="#">21-912345678</a>
+                            <a href="#">
+                                <i class="bi bi-whatsapp text-colored-3 fs-5 ms-1"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="fs-4 text-colored-2">Promoções</h2>
+                    <ul class="footer-list ps-0">
+                        <li>
+                            <a class="text-colored-3" href="#">Descontos</a>
+                        </li>
+                        <li>
+                            <a class="text-colored-3" href="#">Ofertas Exclusivas</a>
+                        </li>
+                        <li>
+                            <a class="text-colored-3" href="#">Garantia +</a>
+                        </li>
+                        <li>
+                            <a class="text-colored-3" href="#">Lançamentos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <h2 class="text-center mt-4 text-colored-2 fs-4">&copy;GDF Motors-2024</h2>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

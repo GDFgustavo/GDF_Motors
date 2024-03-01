@@ -1,0 +1,120 @@
+body {
+    background-color: #b8b8b8 ;
+}
+
+.text-colored {
+    color: #15266b;
+}
+
+.text-colored-2 {
+    color: #F0CB26;
+}
+
+.text-colored-3 {
+    color: #FFF;
+}
+
+.navbar {
+    background-color: #15266b;
+}
+
+.navbar-brand:hover,
+.nav .nav-link:hover,
+.nav .nav-link {
+    color: #F0CB26;
+}
+
+.carousel-mobile,
+#Buttonright-mobile {
+    display: none;
+}
+
+#servicos,
+#categorias h3,
+.card-body,
+footer {
+    background-color: #15266b;
+}
+
+#servicos:hover {
+    background-color: #1a2d7d;
+}
+
+#anuncios {
+    background-color: #515151;
+}
+
+#busca:focus {
+    box-shadow: none;
+}
+
+form .input-group {
+    width: 50%;
+}
+
+#icone-lupa {
+    background-color: #15266b;
+    border: none;
+}
+
+#control-categorias i,
+#control-anuncios i {
+    cursor: pointer;
+}
+
+#categorias,
+#carousel-anuncios {
+    overflow: hidden;
+}
+
+.footer-list {
+    list-style: none;
+    display: block;
+}
+
+.footer-list a:hover {
+    text-decoration: underline;
+    color: #F0CB26;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+
+    #categorias,
+    #carousel-anuncios {
+    overflow: auto;
+}
+
+    #control-categorias {
+        display: none;
+    }
+
+    #control-anuncios {
+        display: none;
+    }
+
+    #carousel-anuncios .card {
+        margin-bottom: 10%;
+    }
+
+    #Buttonright-mobile {
+        display: block;
+    }
+
+    form .input-group {
+        width: 100%;
+    }
+
+    .carousel,
+    .carousel-control-prev,
+    .carousel-control-next{
+        display: none;
+    }
+
+    .carousel-mobile {
+        display: block;
+    }
+}
